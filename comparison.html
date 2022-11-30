@@ -6,12 +6,11 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
 
-    <title>Latitude Data Homepage</title>
+    <!-- Add a title here -->
 
     <!-- Boostrap Stylesheet -->
     <link rel="stylesheet" href="assets/css/bootstrap.min.css" media="screen">
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
-
     <!-- Our own CSS stylesheet -->
     <link rel="stylesheet" href="assets/css/styles.css" media="screen">
 
@@ -53,51 +52,42 @@
     <!-- End of navbar -->
 
     <!-- Start of container -->
-    <div class = "container">
+    <div class="container">
       <div class="row">
-        <div class="col-md-8">
+        <div class="col">
           <header>
-            <h2>Latitude and Weather</h2>
+            <h2>Comparisions</h2>
           </header>
-          <section id="figure">
-            <section>
-              <img id="sample-image" src="assets/images/Fig1.png">
-            </section>
-            <section>
-              <p>This project reviewed a variety of weather data in order to identify the effect of latitude on weather phenomenon. 
-                Cloudiness, humidity, temperature, and wind speeds were sampled from a variety of locations around the world.
-                Each of these variables was plotted against the location's latitude for to determine which weather phenomena are most affected by proximity to the equator.
-              </p>
-            </section>
-          </section>
-        </div>
-        <div class="col-md-4">
-          <header>
-            <h2>Visualizations</h2>
-          </header>
-          <section>
+        <div class="row">
+          <div class="col-md-6">
             <a target="_blank" href="visualizations/temp.html">
-              <img class="tile" src="assets/images/Fig1.png">
+              <img class="quarter" src="assets/images/Fig1.png">
             </a>
+          </div>
+       
+          <div class="col-md-6">
             <a target="_blank" href="visualizations/humidity.html">
-              <img class="tile" src="assets/images/Fig2.png">
+              <img class="quarter" src="assets/images/Fig2.png">
             </a>
+          </div>
+        </div>
+        <div class="row">
+          <div class="col-md-6">
             <a target="_blank" href="visualizations/cloudiness.html">
-              <img class="tile" src="assets/images/Fig3.png">
+              <img class="quarter" src="assets/images/Fig3.png">
             </a>
+          </div>
+          <div class="col-md-6">
             <a target="_blank" href="visualizations/wind.html">
-              <img class="tile" src="assets/images/Fig4.png">
+              <img class="quarter" src="assets/images/Fig4.png">
             </a>
-          </section>
-
-
-         
           
-          <div class="clearfix"></div>
+          </div>
+        </div>
           
-          <!-- End of the Visualizations imageNav Area -->
-    <!-- End of container -->
+      </div>
     </div>
+    <!-- End of container -->
 
     <!-- jQuery CDN -->
     <script type="text/javascript" src="https://code.jquery.com/jquery-2.1.4.min.js"></script>
