@@ -1,4 +1,4 @@
-/* div.gallery {
+div.gallery {
   border: 1px solid #ccc;
 }
 
@@ -9,7 +9,7 @@ div.gallery:hover {
 div.gallery img {
   width: 50%;
   height: auto;
-} */
+}
 
 div.desc {
   padding: 15px;
@@ -19,7 +19,7 @@ div.desc {
 * {
   box-sizing: border-box;
 }
-/* 
+
 .responsive {
   padding: 0 6px;
   float: left;
@@ -37,7 +37,7 @@ div.desc {
   .responsive {
     width: 100%;
   }
-} */
+}
 
 .clearfix:after {
   content: "";
