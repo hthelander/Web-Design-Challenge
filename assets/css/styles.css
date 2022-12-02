@@ -1,105 +1,71 @@
-div.gallery {
-  border: 1px solid #ccc;
-}
-
-div.gallery:hover {
-  border: 1px solid #777;
-}
-
-div.gallery img {
-  width: 50%;
-  height: auto;
-}
-
-div.desc {
-  padding: 15px;
-  text-align: center;
-}
-
-* {
-  box-sizing: border-box;
-}
-
-.responsive {
-  padding: 0 6px;
-  float: left;
-  width: 24.99999%;
-}
-
-@media only screen and (max-width: 700px) {
-  .responsive {
-    width: 49.99999%;
-    margin: 6px 0;
-  }
-}
-
-@media only screen and (max-width: 500px) {
-  .responsive {
-    width: 100%;
-  }
-}
-
-.clearfix:after {
-  content: "";
-  display: table;
-  clear: both;
-}
-
 body {
   padding: 0;
   margin: 0;
   font-family: Georgia, "Times New Roman", Times, serif;
   font-size: 18px;
   line-height: 150%;
-  color: #333;
-  background: #efeee7;
+  color: #22aaa1;
+  background: #e7e5e5;
 }
+
+
 
 header {
-  background: skyblue;
+  background: white;
+  margin: 1;
+  padding: 20px;
+  float: center;
+  
 }
 
-h1 {
-  padding: 20px 0;
-  margin: 0;
-  margin-bottom: 20px;
-  font-size: 28px;
-  color: #eee;
-  text-align: center;
+section{
+  background-color:
+  white;
+   margin: 30px
+   padding: 20px;
+  }
+
+p {
+  margin: 15px;
+  padding: 10px;
 }
+
+
 
 h2 {
   font-size: 24px;
+  text-align: center;
 }
 
-a {
-  color: #d21034;
-}
+
 
 /* Selecting elements by class */
 .container {
   width: 1024px;
   margin: 0 auto;
+ 
 }
 
 /* Selecting elements by ID */
-#main-intro,
-#contact-info,
+#main-section,
+
 #sample-image {
   float: left;
+  margin: 10px;
 }
 
-.figure {
+#figure {
   position: relative;
 }
 
 
 
-#main-intro {
+#main-section {
   width: 70%;
+  line-height: 1.5;
 }
 
-#contact-info {
+#vis-tiles {
   width: 30%;
   line-height: 1.5;
 }
@@ -109,17 +75,110 @@ a {
   height: 200px;
   margin-right: 20px;
 }
+
 .tile{
   width: 150px;
-  height: 150px;
+  height: 130px;
+  margin: 1px;
+  padding: 2px;
+
 }
 
 .quarter{
-  width: 500px;
-  height: 500px;
+  width: 450px;
+  height: 400px;
+  float: center;
+  margin: 20px;
 }
+
+
 
 .lat-image{
   width: 600px;
   height: 500px;
+  float: center;
+}
+
+.table-responsive{
+  background: white;
+}
+
+.table-head{
+  margin:5px;
+}
+
+@media(max-width: 600px){
+  .container {
+    width: 612px;
+    margin: 0 auto;
+   
+  }
+  
+  /* Selecting elements by ID */
+  #main-section,
+  
+  #sample-image {
+    float: left;
+    margin: 10px;
+  }
+  
+  #figure {
+    position: relative;
+  }
+  
+  
+  
+  #main-section {
+    width: 70%;
+    line-height: 1.5;
+  }
+  
+  #vis-tiles {
+    width: 30%;
+    line-height: 1.5;
+  }
+  
+  #sample-image {
+    width: 150px;
+    height: 150px;
+    margin-right: 5px;
+  }
+  
+  .tile{
+    width: 150px;
+    height: 130px;
+    margin: 1px;
+    padding: 2px;
+    float: center;
+  
+  }
+  
+  .quarter{
+    width: 200px;
+    height: 200px;
+    float: center;
+  }
+  
+  
+  
+  .lat-image{
+    width: 200px;
+    height: 150px;
+    float: center;
+  }
+  
+  .table-responsive{
+    background: white;
+  }
+  
+  .table-head{
+    margin:5px;
+  }
+
+}
+
+.clearfix:after {
+  content: "";
+  display: table;
+  clear: both;
 }
